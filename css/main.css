@@ -1,0 +1,58 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+header{
+	height: 100vh;
+	background: url(../bg.jpg);
+	background-size: cover;
+}
+header:before{
+	
+}
+.main{
+	max-width: 1200px;
+   margin: auto;
+}
+.main .logo img{
+	height: auto;
+	float: left;
+	width: 150px;
+}
+
+.main ul{
+	float: right;
+	list-style: none;
+}
+.main ul li{
+	
+	text-transform: uppercase;
+	display: inline-block;
+	margin: 5px 
+}
+.main ul li a{
+	color: #ffffff;
+	text-decoration: none;
+}
+.main ul li a:hover{
+	text-decoration: underline;
+	color: #cccccc;
+}
+
+.title{
+	color: #ffffff;
+	top: 50%;
+	left: 70%;
+	position: absolute;
+}
+h1#exp{
+	font-weight: 700;
+}
+
+h1#beauty{
+	font-weight: 500;
+}
+
+.section img{
+	width: 50px;
+}

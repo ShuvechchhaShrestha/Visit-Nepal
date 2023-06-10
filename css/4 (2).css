@@ -1,0 +1,70 @@
+.logo img{
+	width: 10%;
+}
+.main{
+    width: 100%;
+    
+    top: 0;
+    padding-top: 10px;
+    left: 0;
+    z-index: 1;
+    height: 80px;
+
+}
+.main .logo img{
+	height: auto;
+	float: left;
+	width: 100px;
+	margin-top:-10px;
+}
+
+.main ul{
+	float: right;
+	list-style: none;
+}
+.main ul li{
+	
+	text-transform: uppercase;
+	display: inline-block;
+	margin: 5px 
+}
+.main ul li a{
+	color: #000000;
+	text-decoration: none;
+}
+.main ul li a:hover{
+	text-decoration: underline;
+	color: #cccccc;
+}
+
+.culture{
+	margin-top: 150px;
+}
+
+.title{
+	color: #ffffff;
+	top: 50%;
+	left: 70%;
+	position: absolute;
+}
+.gallary-img{
+	margin-top: 150px;<li><a href="index.html">SUSTAINABILITY</a></li>
+	
+	
+}
+.gallary-img img{
+			filter: grayscale(0.8);
+			animation: infinite gray 10s;
+		}
+		@keyframes gray{
+			0%{
+				filter: grayscale(0.8);
+			}
+			50%{
+				filter: grayscale(0);
+			}
+			100%{
+				filter: grayscale(0.8);
+			}
+		
+		}

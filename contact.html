@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link href="css/contact.css" rel="stylesheet" />
+    <meta charset="utf-8">
+    <title>Feedback</title>
+  </head>
+  <body>
+  <div class="main">
+
+				     <div class="logo">
+					    <a href="front.html">  <img src="D:\Project\Visit Nepal\Images\2020.jpg"></a>
+					 </div>
+						<ul>
+						
+							<li class="active"><a href="exp.html">EXPERIENCES</a></li>
+							<li><a href="news.html">NEWS</a></li>
+							<li><a href="gallery.html">GALLERY</a></li>
+							<li><a href="contact.html">FEEDBACK</a></li>
+						</ul>
+	</div>
+  
+  
+    <div class="contact">
+      <div class="contactformfield">
+        <div class="heading" align="center">
+          Feedback
+        </div>
+        <form action="#">
+          <input type="text" placeholder="Full Name" required id="name">
+          <input type="email" placeholder="Email" required id="email">
+          <input type="number" placeholder="Phone number" required id="ph">
+          <input type="text" placeholder="How did you find us?" required id="source">
+          <input type="text" placeholder="Nationality" required id="nation">
+          <textarea id="message" placeholder="Enter your message"></textarea>
+          <center><input type="button" name="submit" onClick="return contact()" value="Send Message"></center>
+        </form>
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript">
+    function contact(){
+      var name = document.getElementById('name').value;
+      var email = document.getElementById('email').value;
+      var phone = document.getElementById('ph').value;
+      var source = document.getElementById('source').value;
+      var nationality = document.getElementById('nation').value;
+      var msg = document.getElementById('message').value;
+      if (name == "" || email == "" || phone == "" ||source == "" ||nationality == "" ||msg == "") {
+        console.log('All the field is required. Please fill again');
+      }else{
+        if (phone < 0) {
+          console.log("Phone number cannot be negative");
+        }else{
+          console.log("Form submitted Successfully");
+        }
+      }
+    }
+  </script>
+</html>

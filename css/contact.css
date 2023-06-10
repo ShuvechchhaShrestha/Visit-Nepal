@@ -1,0 +1,87 @@
+body{
+  margin:0;
+  background-color:white;
+}
+
+
+.contact{
+  background: darkcyan;
+  height: 100vh;
+  background-size: cover;
+}
+.contactformfield{
+  position: absolute;
+  right: 35%;
+  background: #ffffff;
+  height: 60vh;
+  width: 400px;
+  margin-top: 50px;
+  box-shadow: 5px 0px 10px 0px #222222;
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.heading{
+  font-weight: 500;
+  font-size: 30px;
+}
+input[type=text],input[type=email],input[type=number],textarea{
+  padding-left: 10px;
+  width: 100%;
+  margin-top: 10px;
+  height: 25px;
+  resize: none;
+}
+textarea{
+  height: 90px; !important
+}
+input[type=submit]{
+  width: 40%;
+  margin-top: 20px;
+  height: 30px;
+  background: transparent;
+  border: 1px solid #222222;
+  cursor: pointer;
+}
+input[type=submit]:hover{
+  background: #222222;
+  color: #ffffff;
+}
+.logo img{
+	width: 10%;
+}
+.main{
+    width: 100%;
+    
+    top: 0;
+    padding-top: 10px;
+    left: 0;
+    z-index: 1;
+    height: 80px;
+
+}
+.main .logo img{
+	height: auto;
+	float: left;
+	width: 100px;
+	margin-top:-10px;
+}
+
+.main ul{
+	float: right;
+	list-style: none;
+}
+.main ul li{
+	
+	text-transform: uppercase;
+	display: inline-block;
+	margin: 5px 
+}
+.main ul li a{
+	color: #000000;
+	text-decoration: none;
+}
+.main ul li a:hover{
+	text-decoration: underline;
+	color: #cccccc;
+}
